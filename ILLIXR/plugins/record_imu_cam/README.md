@@ -1,0 +1,1 @@
+../../docs/docs/plugin_README/README_record_imu_cam.md

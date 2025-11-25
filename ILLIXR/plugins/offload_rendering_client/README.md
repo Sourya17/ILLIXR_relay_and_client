@@ -1,0 +1,1 @@
+../../docs/docs/plugin_README/README_offload_rendering_client.md

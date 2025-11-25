@@ -1,0 +1,12 @@
+plugins: tcp_network_backend,offload_vio.server_rx,offload_vio.server_tx,openvins
+install_prefix: /usr/local
+env_vars:
+  enable_offload: False
+  enable_alignment: False
+  enable_verbose_errors: False
+  enable_pre_sleep: False
+  data: /home/jammy/ILLIXR_server/ILLIXR/data/mav0
+  demo_data: /home/jammy/ILLIXR_server/ILLIXR/demo_data
+  ILLIXR_TCP_SERVER_IP: 0.0.0.0
+  ILLIXR_TCP_SERVER_PORT: 5000
+  ILLIXR_IS_CLIENT: '0'
